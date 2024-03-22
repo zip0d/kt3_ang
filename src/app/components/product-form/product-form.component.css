@@ -1,0 +1,66 @@
+.filtersForm{
+    width: 437px;
+    height: 200px;
+    gap: 0px;
+    border-radius: 22px;
+    opacity: 0px;
+
+    background-color: #CCE3DE;
+    border: 0.5px solid #ABABAB;
+    padding: 20px 0px 20px 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    gap:10px
+}
+
+.filter{
+    display: flex;
+    flex-direction: column;
+
+    width: 200px;
+}
+
+.choice{
+    width: 185px;
+height: 26px;
+top: 116px;
+left: 516px;
+gap: 0px;
+border: 0.5px solid #ABABAB;
+border-radius: 22px;
+opacity: 0px;
+
+padding-left: 10px;
+margin-top: 20px;
+}
+
+.range-input{
+    width: 185px;
+height: 7px;
+top: 135px;
+left: 729px;
+gap: 0px;
+border: 0.5px #ABABAB solid;
+border-radius: 22px;
+opacity: 0px;
+
+margin: 0;
+
+}
+
+.range{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    height: 30px;
+
+    font-size: 10px;
+}

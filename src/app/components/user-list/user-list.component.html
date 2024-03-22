@@ -1,0 +1,19 @@
+
+<section>
+    <div class="container">
+      <div class="wrapper">
+        @if (productsListService.products.length === 0) {
+          <span>Загрузка товаров...</span>
+        }
+        @for (product of productsListService.filterProducts(); track product.id) {
+          <app-product-item
+            [img]="product.images[0]"
+            [title]="product.title"
+            [category]="product.category"
+            [price]="product.price"
+            [rating]="product.rating"
+          />
+        }
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,43 @@
+
+.fa-star{
+    color: #607068;
+    font-size: 20px;
+
+}
+.active{
+    color: #6B9080;
+}
+
+.info{
+width: 193px;
+height: 26px;
+border-radius: 22px;
+border: 0.5px #ABABAB solid;
+padding: 5px 0px 0px 10px;
+background-color: #A4C3B2;
+
+font-family: Inter;
+font-size: 12px;
+font-weight: 700;
+line-height: 14.52px;
+text-align: left;
+margin: 0;
+
+}
+
+.aic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img{
+    width: 172px;
+height: 170px;
+border-radius: 100px;
+opacity: 0px;
+
+margin-left: auto;
+margin-right: auto;
+
+}

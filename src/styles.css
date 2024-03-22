@@ -1,0 +1,22 @@
+.users_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.user_item{
+    padding: 15px;
+    border: 1px solid black;
+    width: 300px;
+
+    width: 225px;
+    background-color: #CCE3DE;
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
